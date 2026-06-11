@@ -21,9 +21,4 @@ def transcript_debug(message: str):
 
 
 def get_transcript_debug_events() -> list[str]:
-    return TRANSCRIPT_DEBUG
-
-
-def extract_video_id(video_url: str) -> str:
-    parsed = urlparse(video_url)
-    if parsed
+    return
