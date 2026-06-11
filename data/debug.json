@@ -1,0 +1,441 @@
+{
+  "discovery_events": [
+    "Cleveland Browns RSS entries found: 0",
+    "Cleveland Browns yt-dlp-channel discovery failed: ERROR: [youtube:tab] @ClevelandBrowns: This channel does not have a videos tab\n",
+    "Cleveland Browns ytsearch:Cleveland Browns press conference entries found: 5",
+    "Found 5 candidate videos for Cleveland Browns via YouTube search fallback",
+    "Tennessee Titans RSS entries found: 0",
+    "Tennessee Titans yt-dlp-channel entries found: 0",
+    "Tennessee Titans ytsearch:Tennessee Titans press conference entries found: 5",
+    "Found 5 candidate videos for Tennessee Titans via YouTube search fallback",
+    "Pittsburgh Steelers RSS entries found: 15",
+    "Pittsburgh Steelers RSS skipped by keyword: Steelers OTAs: Rookies Max Iheanachor, Gennings Dunker Work on Connection, Chemistry While Vets Away",
+    "Pittsburgh Steelers RSS skipped by keyword: STEELERS SQUAD SHOW: Darnell Washington Gets PAID | Is Joey Porter Jr. Next?",
+    "Pittsburgh Steelers RSS skipped by keyword: Steelers' Zach Frazier, Troy Fautanu Have Bones to Be Elite OL | Why Baker Mayfield Wouldn't Work",
+    "Pittsburgh Steelers RSS skipped by keyword: Steelers' Pat Freiermuth, Darnell Washington a Big Part of Mike McCarthy's Plan | Will Howard's Shot",
+    "Pittsburgh Steelers RSS skipped by keyword: What’s the Steelers’ BIGGEST Weakness? 👀 #steelers #nfl",
+    "Pittsburgh Steelers yt-dlp-channel entries found: 0",
+    "Pittsburgh Steelers ytsearch:Pittsburgh Steelers press conference entries found: 5",
+    "Found 5 candidate videos for Pittsburgh Steelers via YouTube search fallback",
+    "Baltimore Ravens RSS entries found: 15",
+    "Baltimore Ravens RSS skipped by keyword: Database Migrations what is it: Part #88 Python API Course",
+    "Baltimore Ravens RSS skipped by keyword: Get One Post Join: Part #87 Python API Course",
+    "Baltimore Ravens RSS skipped by keyword: SQL Joins w/ SqlAlchemy: Part #86 Python API Course",
+    "Baltimore Ravens RSS skipped by keyword: SQL Joins: Part #85 Python API Course",
+    "Baltimore Ravens RSS skipped by keyword: FastAPI Votes Route: Part# 84 Python API Course",
+    "Baltimore Ravens yt-dlp-channel entries found: 0",
+    "Baltimore Ravens ytsearch:Baltimore Ravens press conference entries found: 5",
+    "Found 5 candidate videos for Baltimore Ravens via YouTube search fallback",
+    "Cincinnati Bengals RSS entries found: 0",
+    "Cincinnati Bengals yt-dlp-channel entries found: 0",
+    "Cincinnati Bengals ytsearch:Cincinnati Bengals press conference entries found: 5",
+    "Found 5 candidate videos for Cincinnati Bengals via YouTube search fallback"
+  ],
+  "run_debug": [
+    {
+      "team": "Cleveland Browns",
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "team_key": "browns",
+          "team_name": "Cleveland Browns",
+          "title": "2026 Cleveland Browns Press Conference",
+          "url": "https://www.youtube.com/watch?v=c7rqPlalkng",
+          "video_id": "c7rqPlalkng",
+          "published": "",
+          "source": "ytsearch:Cleveland Browns press conference"
+        },
+        {
+          "team_key": "browns",
+          "team_name": "Cleveland Browns",
+          "title": "Shedeur Sanders Press Conference | June 10th, 2026",
+          "url": "https://www.youtube.com/watch?v=fGJYo_Y2cts",
+          "video_id": "fGJYo_Y2cts",
+          "published": "",
+          "source": "ytsearch:Cleveland Browns press conference"
+        },
+        {
+          "team_key": "browns",
+          "team_name": "Cleveland Browns",
+          "title": "Christian Jones and Ephraim Banda Press Conference | June 11th, 2026",
+          "url": "https://www.youtube.com/watch?v=eik56zRL3wM",
+          "video_id": "eik56zRL3wM",
+          "published": "",
+          "source": "ytsearch:Cleveland Browns press conference"
+        },
+        {
+          "team_key": "browns",
+          "team_name": "Cleveland Browns",
+          "title": "Christian Jones Press Conference | June 11th, 2026",
+          "url": "https://www.youtube.com/watch?v=axlc55LyEgY",
+          "video_id": "axlc55LyEgY",
+          "published": "",
+          "source": "ytsearch:Cleveland Browns press conference"
+        },
+        {
+          "team_key": "browns",
+          "team_name": "Cleveland Browns",
+          "title": "INSTANT REACTION to Deshaun Watson's first press conference w/ the Cleveland Browns since 2024",
+          "url": "https://www.youtube.com/watch?v=exelbDZ4iFI",
+          "video_id": "exelbDZ4iFI",
+          "published": "",
+          "source": "ytsearch:Cleveland Browns press conference"
+        }
+      ]
+    },
+    {
+      "team": "Cleveland Browns",
+      "title": "2026 Cleveland Browns Press Conference",
+      "url": "https://www.youtube.com/watch?v=c7rqPlalkng",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cleveland Browns",
+      "title": "Shedeur Sanders Press Conference | June 10th, 2026",
+      "url": "https://www.youtube.com/watch?v=fGJYo_Y2cts",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cleveland Browns",
+      "title": "Christian Jones and Ephraim Banda Press Conference | June 11th, 2026",
+      "url": "https://www.youtube.com/watch?v=eik56zRL3wM",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cleveland Browns",
+      "title": "Christian Jones Press Conference | June 11th, 2026",
+      "url": "https://www.youtube.com/watch?v=axlc55LyEgY",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cleveland Browns",
+      "title": "INSTANT REACTION to Deshaun Watson's first press conference w/ the Cleveland Browns since 2024",
+      "url": "https://www.youtube.com/watch?v=exelbDZ4iFI",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Tennessee Titans",
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "team_key": "titans",
+          "team_name": "Tennessee Titans",
+          "title": "Robert Saleh on Cam Ward: “We’re in Really Good Hands” | Titans Press Conference",
+          "url": "https://www.youtube.com/watch?v=EmrSkSu2UYw",
+          "video_id": "EmrSkSu2UYw",
+          "published": "",
+          "source": "ytsearch:Tennessee Titans press conference"
+        },
+        {
+          "team_key": "titans",
+          "team_name": "Tennessee Titans",
+          "title": "Live Press Conference: 1:15 PM CT: Titans Select Players",
+          "url": "https://www.youtube.com/watch?v=WMeLggtKyAY",
+          "video_id": "WMeLggtKyAY",
+          "published": "",
+          "source": "ytsearch:Tennessee Titans press conference"
+        },
+        {
+          "team_key": "titans",
+          "team_name": "Tennessee Titans",
+          "title": "Position Coaches Press Conference | Tennessee Titans",
+          "url": "https://www.youtube.com/watch?v=OqJWy7kscg4",
+          "video_id": "OqJWy7kscg4",
+          "published": "",
+          "source": "ytsearch:Tennessee Titans press conference"
+        },
+        {
+          "team_key": "titans",
+          "team_name": "Tennessee Titans",
+          "title": "Robert Saleh Makes BOLD CLAIM About Titans QB Cam Ward | MCA Titans Podcast",
+          "url": "https://www.youtube.com/watch?v=-Gj0jBpwzng",
+          "video_id": "-Gj0jBpwzng",
+          "published": "",
+          "source": "ytsearch:Tennessee Titans press conference"
+        },
+        {
+          "team_key": "titans",
+          "team_name": "Tennessee Titans",
+          "title": "Robert Saleh Press Conference | Tennessee Titans",
+          "url": "https://www.youtube.com/watch?v=Fj-_yylq9k8",
+          "video_id": "Fj-_yylq9k8",
+          "published": "",
+          "source": "ytsearch:Tennessee Titans press conference"
+        }
+      ]
+    },
+    {
+      "team": "Tennessee Titans",
+      "title": "Robert Saleh on Cam Ward: “We’re in Really Good Hands” | Titans Press Conference",
+      "url": "https://www.youtube.com/watch?v=EmrSkSu2UYw",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Tennessee Titans",
+      "title": "Live Press Conference: 1:15 PM CT: Titans Select Players",
+      "url": "https://www.youtube.com/watch?v=WMeLggtKyAY",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Tennessee Titans",
+      "title": "Position Coaches Press Conference | Tennessee Titans",
+      "url": "https://www.youtube.com/watch?v=OqJWy7kscg4",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Tennessee Titans",
+      "title": "Robert Saleh Makes BOLD CLAIM About Titans QB Cam Ward | MCA Titans Podcast",
+      "url": "https://www.youtube.com/watch?v=-Gj0jBpwzng",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Tennessee Titans",
+      "title": "Robert Saleh Press Conference | Tennessee Titans",
+      "url": "https://www.youtube.com/watch?v=Fj-_yylq9k8",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "team_key": "steelers",
+          "team_name": "Pittsburgh Steelers",
+          "title": "Coach Mike McCarthy Media Availability (June 9) | Pittsburgh Steelers",
+          "url": "https://www.youtube.com/watch?v=-ONKL4hZ5Fc",
+          "video_id": "-ONKL4hZ5Fc",
+          "published": "",
+          "source": "ytsearch:Pittsburgh Steelers press conference"
+        },
+        {
+          "team_key": "steelers",
+          "team_name": "Pittsburgh Steelers",
+          "title": "Steelers President Art Rooney II Press Conference (Jan. 14) | Pittsburgh Steelers",
+          "url": "https://www.youtube.com/watch?v=9ys_WCxRjPE",
+          "video_id": "9ys_WCxRjPE",
+          "published": "",
+          "source": "ytsearch:Pittsburgh Steelers press conference"
+        },
+        {
+          "team_key": "steelers",
+          "team_name": "Pittsburgh Steelers",
+          "title": "Coach Tomlin Press Conference (Week 17 at Cleveland Browns) | Pittsburgh Steelers",
+          "url": "https://www.youtube.com/watch?v=UUEde6TnWok",
+          "video_id": "UUEde6TnWok",
+          "published": "",
+          "source": "ytsearch:Pittsburgh Steelers press conference"
+        },
+        {
+          "team_key": "steelers",
+          "team_name": "Pittsburgh Steelers",
+          "title": "Mike McCarthy Press Conference (Apr. 21) | Pittsburgh Steelers",
+          "url": "https://www.youtube.com/watch?v=1HQvWlVCrJ8",
+          "video_id": "1HQvWlVCrJ8",
+          "published": "",
+          "source": "ytsearch:Pittsburgh Steelers press conference"
+        },
+        {
+          "team_key": "steelers",
+          "team_name": "Pittsburgh Steelers",
+          "title": "Rodgers, Watt & Heyward Postgame Press Conference (Week 18 vs Baltimore Ravens)",
+          "url": "https://www.youtube.com/watch?v=rRtm0rkUuLM",
+          "video_id": "rRtm0rkUuLM",
+          "published": "",
+          "source": "ytsearch:Pittsburgh Steelers press conference"
+        }
+      ]
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "title": "Coach Mike McCarthy Media Availability (June 9) | Pittsburgh Steelers",
+      "url": "https://www.youtube.com/watch?v=-ONKL4hZ5Fc",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "title": "Steelers President Art Rooney II Press Conference (Jan. 14) | Pittsburgh Steelers",
+      "url": "https://www.youtube.com/watch?v=9ys_WCxRjPE",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "title": "Coach Tomlin Press Conference (Week 17 at Cleveland Browns) | Pittsburgh Steelers",
+      "url": "https://www.youtube.com/watch?v=UUEde6TnWok",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "title": "Mike McCarthy Press Conference (Apr. 21) | Pittsburgh Steelers",
+      "url": "https://www.youtube.com/watch?v=1HQvWlVCrJ8",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "title": "Rodgers, Watt & Heyward Postgame Press Conference (Week 18 vs Baltimore Ravens)",
+      "url": "https://www.youtube.com/watch?v=rRtm0rkUuLM",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Baltimore Ravens",
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "team_key": "ravens",
+          "team_name": "Baltimore Ravens",
+          "title": "John Harbaugh Provides an Update on Lamar Jackson | Baltimore Ravens",
+          "url": "https://www.youtube.com/watch?v=JgzljYDcagk",
+          "video_id": "JgzljYDcagk",
+          "published": "",
+          "source": "ytsearch:Baltimore Ravens press conference"
+        },
+        {
+          "team_key": "ravens",
+          "team_name": "Baltimore Ravens",
+          "title": "John Harbaugh on Lamar Jackson's Injury | Baltimore Ravens",
+          "url": "https://www.youtube.com/watch?v=znSb1P1dCD4",
+          "video_id": "znSb1P1dCD4",
+          "published": "",
+          "source": "ytsearch:Baltimore Ravens press conference"
+        },
+        {
+          "team_key": "ravens",
+          "team_name": "Baltimore Ravens",
+          "title": "John Harbaugh: 'We Just Didn't Play Well Enough to Close It Out' | Baltimore Ravens",
+          "url": "https://www.youtube.com/watch?v=EzKNeL5Vkpg",
+          "video_id": "EzKNeL5Vkpg",
+          "published": "",
+          "source": "ytsearch:Baltimore Ravens press conference"
+        },
+        {
+          "team_key": "ravens",
+          "team_name": "Baltimore Ravens",
+          "title": "John Harbaugh on Winner-Take-All Game vs. Steelers | Baltimore Ravens",
+          "url": "https://www.youtube.com/watch?v=buvUJrycICw",
+          "video_id": "buvUJrycICw",
+          "published": "",
+          "source": "ytsearch:Baltimore Ravens press conference"
+        },
+        {
+          "team_key": "ravens",
+          "team_name": "Baltimore Ravens",
+          "title": "John Harbaugh on Lamar Jackson's Return to Practice | Baltimore Ravens",
+          "url": "https://www.youtube.com/watch?v=aR212tsvvBg",
+          "video_id": "aR212tsvvBg",
+          "published": "",
+          "source": "ytsearch:Baltimore Ravens press conference"
+        }
+      ]
+    },
+    {
+      "team": "Baltimore Ravens",
+      "title": "John Harbaugh Provides an Update on Lamar Jackson | Baltimore Ravens",
+      "url": "https://www.youtube.com/watch?v=JgzljYDcagk",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Baltimore Ravens",
+      "title": "John Harbaugh on Lamar Jackson's Injury | Baltimore Ravens",
+      "url": "https://www.youtube.com/watch?v=znSb1P1dCD4",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Baltimore Ravens",
+      "title": "John Harbaugh: 'We Just Didn't Play Well Enough to Close It Out' | Baltimore Ravens",
+      "url": "https://www.youtube.com/watch?v=EzKNeL5Vkpg",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Baltimore Ravens",
+      "title": "John Harbaugh on Winner-Take-All Game vs. Steelers | Baltimore Ravens",
+      "url": "https://www.youtube.com/watch?v=buvUJrycICw",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Baltimore Ravens",
+      "title": "John Harbaugh on Lamar Jackson's Return to Practice | Baltimore Ravens",
+      "url": "https://www.youtube.com/watch?v=aR212tsvvBg",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cincinnati Bengals",
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "team_key": "bengals",
+          "team_name": "Cincinnati Bengals",
+          "title": "Joe Burrow Press Conference - May 20",
+          "url": "https://www.youtube.com/watch?v=ohqeGmJfwZ4",
+          "video_id": "ohqeGmJfwZ4",
+          "published": "",
+          "source": "ytsearch:Cincinnati Bengals press conference"
+        },
+        {
+          "team_key": "bengals",
+          "team_name": "Cincinnati Bengals",
+          "title": "Joe Burrow Press Conference - December 28",
+          "url": "https://www.youtube.com/watch?v=R4_1LMR_sv4",
+          "video_id": "R4_1LMR_sv4",
+          "published": "",
+          "source": "ytsearch:Cincinnati Bengals press conference"
+        },
+        {
+          "team_key": "bengals",
+          "team_name": "Cincinnati Bengals",
+          "title": "Zac Taylor and Al Golden Press Conference - April 20",
+          "url": "https://www.youtube.com/watch?v=XwD8Mp65fFo",
+          "video_id": "XwD8Mp65fFo",
+          "published": "",
+          "source": "ytsearch:Cincinnati Bengals press conference"
+        },
+        {
+          "team_key": "bengals",
+          "team_name": "Cincinnati Bengals",
+          "title": "Duke Tobin Press Conference - January 9",
+          "url": "https://www.youtube.com/watch?v=3LjH1lgb0Fo",
+          "video_id": "3LjH1lgb0Fo",
+          "published": "",
+          "source": "ytsearch:Cincinnati Bengals press conference"
+        },
+        {
+          "team_key": "bengals",
+          "team_name": "Cincinnati Bengals",
+          "title": "Joe Burrow Press Conference - December 24",
+          "url": "https://www.youtube.com/watch?v=Zi6st3NhFGg",
+          "video_id": "Zi6st3NhFGg",
+          "published": "",
+          "source": "ytsearch:Cincinnati Bengals press conference"
+        }
+      ]
+    },
+    {
+      "team": "Cincinnati Bengals",
+      "title": "Joe Burrow Press Conference - May 20",
+      "url": "https://www.youtube.com/watch?v=ohqeGmJfwZ4",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cincinnati Bengals",
+      "title": "Joe Burrow Press Conference - December 28",
+      "url": "https://www.youtube.com/watch?v=R4_1LMR_sv4",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cincinnati Bengals",
+      "title": "Zac Taylor and Al Golden Press Conference - April 20",
+      "url": "https://www.youtube.com/watch?v=XwD8Mp65fFo",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cincinnati Bengals",
+      "title": "Duke Tobin Press Conference - January 9",
+      "url": "https://www.youtube.com/watch?v=3LjH1lgb0Fo",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cincinnati Bengals",
+      "title": "Joe Burrow Press Conference - December 24",
+      "url": "https://www.youtube.com/watch?v=Zi6st3NhFGg",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    }
+  ]
+}
