@@ -3,6 +3,7 @@ import os
 import re
 import subprocess
 import tempfile
+from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 from youtube_transcript_api import YouTubeTranscriptApi
@@ -59,6 +60,18 @@ def get_transcript_from_api(video_id: str) -> str:
         return ""
 
 
+def write_cookie_file(tmp: str) -> str | None:
+    cookies = os.getenv("YOUTUBE_COOKIES")
+    if not cookies or not cookies.strip():
+        transcript_debug("No YOUTUBE_COOKIES secret found; yt-dlp will run without cookies.")
+        return None
+
+    cookie_path = Path(tmp) / "youtube_cookies.txt"
+    cookie_path.write_text(cookies, encoding="utf-8")
+    transcript_debug("YOUTUBE_COOKIES secret found; using cookies file for yt-dlp.")
+    return str(cookie_path)
+
+
 def get_transcript_from_ytdlp(video_url: str) -> str:
     with tempfile.TemporaryDirectory() as tmp:
         cmd = [
@@ -69,8 +82,13 @@ def get_transcript_from_ytdlp(video_url: str) -> str:
             "--sub-lang", "en.*",
             "--sub-format", "vtt",
             "-o", os.path.join(tmp, "%(id)s.%(ext)s"),
-            video_url,
         ]
+
+        cookie_path = write_cookie_file(tmp)
+        if cookie_path:
+            cmd.extend(["--cookies", cookie_path])
+
+        cmd.append(video_url)
 
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
         if result.returncode != 0:
