@@ -32,6 +32,7 @@ jobs:
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
           YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+          YOUTUBE_COOKIES_B64_GZ: ${{ secrets.YOUTUBE_COOKIES_B64_GZ }}
           MAX_VIDEOS_PER_TEAM: "5"
           MIN_TRANSCRIPT_CHARS: "500"
         run: |
