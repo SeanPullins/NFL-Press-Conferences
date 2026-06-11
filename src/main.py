@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 from quote_miner import analyze_transcript
 from report import write_reports
-from transcript import get_transcript
+from transcript import get_transcript, get_transcript_debug_events
 from youtube_feeds import find_candidate_videos, get_debug_events
 
 
@@ -112,6 +112,7 @@ def main():
 
     debug_payload = {
         "discovery_events": get_debug_events(),
+        "transcript_events": get_transcript_debug_events(),
         "run_debug": run_debug,
     }
 
