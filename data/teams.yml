@@ -1,108 +1,246 @@
+defaults:
+  keywords:
+    - press conference
+    - press conferences
+    - media availability
+    - media avail
+    - locker room
+    - podium
+    - presser
+    - speaks
+    - talks
+    - interview
+    - ota
+    - otas
+    - minicamp
+    - training camp
+    - practice
+    - coach
+    - coordinator
+    - quarterback
+    - qb
+
 teams:
-  browns:
-    name: Cleveland Browns
-    youtube_channel_id: UC46LjrNgBfBz0HdW7vS4ggQ
-    youtube_url: https://www.youtube.com/@ClevelandBrowns
-    keywords:
-      - press conference
-      - press conferences
-      - media availability
-      - interview
-      - locker room
-      - podium
-      - coach
-      - coordinator
-      - quarterback
-      - qb
-      - ota
-      - otas
-      - minicamp
-      - training camp
-      - practice
-      - presser
-      - speaks
-      - talks
+  cardinals:
+    name: Arizona Cardinals
+    search_queries:
+      - Arizona Cardinals press conference
+      - Arizona Cardinals media availability
+      - Arizona Cardinals locker room interview
 
-  titans:
-    name: Tennessee Titans
-    youtube_channel_id: UCE7b9gnNh9XoF5X8XW-m9Gg
-    youtube_url: https://www.youtube.com/@titans
-    keywords:
-      - press conference
-      - press conferences
-      - media availability
-      - interview
-      - locker room
-      - podium
-      - coach
-      - coordinator
-      - quarterback
-      - qb
-      - ota
-      - otas
-      - minicamp
-      - training camp
-      - practice
-      - presser
-      - speaks
-      - talks
-
-  steelers:
-    name: Pittsburgh Steelers
-    youtube_channel_id: UC7JorgD8nGLtvvMy1ogFetg
-    youtube_url: https://www.youtube.com/@steelers
-    keywords:
-      - press conference
-      - press conferences
-      - media availability
-      - interview
-      - locker room
-      - podium
-      - coach
-      - coordinator
-      - quarterback
-      - qb
-      - practice
-      - presser
-      - speaks
-      - talks
+  falcons:
+    name: Atlanta Falcons
+    search_queries:
+      - Atlanta Falcons press conference
+      - Atlanta Falcons media availability
+      - Atlanta Falcons locker room interview
 
   ravens:
     name: Baltimore Ravens
-    youtube_channel_id: UC2sYgV-NV6S5_-pqLGChoNQ
-    youtube_url: https://www.youtube.com/@BaltimoreRavens
-    keywords:
-      - press conference
-      - press conferences
-      - media availability
-      - interview
-      - locker room
-      - podium
-      - coach
-      - coordinator
-      - quarterback
-      - qb
-      - practice
-      - presser
-      - speaks
-      - talks
+    search_queries:
+      - Baltimore Ravens press conference
+      - Baltimore Ravens media availability
+      - Baltimore Ravens locker room interview
+
+  bills:
+    name: Buffalo Bills
+    search_queries:
+      - Buffalo Bills press conference
+      - Buffalo Bills media availability
+      - Buffalo Bills locker room interview
+
+  panthers:
+    name: Carolina Panthers
+    search_queries:
+      - Carolina Panthers press conference
+      - Carolina Panthers media availability
+      - Carolina Panthers locker room interview
+
+  bears:
+    name: Chicago Bears
+    search_queries:
+      - Chicago Bears press conference
+      - Chicago Bears media availability
+      - Chicago Bears locker room interview
 
   bengals:
     name: Cincinnati Bengals
-    youtube_channel_id: UClv6v_oI1OLQalwthQxD-Wg
-    youtube_url: https://www.youtube.com/@Bengals
-    keywords:
-      - press conference
-      - press conferences
-      - media availability
-      - interview
-      - locker room
-      - podium
-      - coach
-      - coordinator
-      - quarterback
-      - qb
-      - practice
-      - presser
-      - speaks
-      - talks
+    search_queries:
+      - Cincinnati Bengals press conference
+      - Cincinnati Bengals media availability
+      - Cincinnati Bengals locker room interview
+
+  browns:
+    name: Cleveland Browns
+    search_queries:
+      - Cleveland Browns press conference
+      - Cleveland Browns media availability
+      - Cleveland Browns locker room interview
+
+  cowboys:
+    name: Dallas Cowboys
+    search_queries:
+      - Dallas Cowboys press conference
+      - Dallas Cowboys media availability
+      - Dallas Cowboys locker room interview
+
+  broncos:
+    name: Denver Broncos
+    search_queries:
+      - Denver Broncos press conference
+      - Denver Broncos media availability
+      - Denver Broncos locker room interview
+
+  lions:
+    name: Detroit Lions
+    search_queries:
+      - Detroit Lions press conference
+      - Detroit Lions media availability
+      - Detroit Lions locker room interview
+
+  packers:
+    name: Green Bay Packers
+    search_queries:
+      - Green Bay Packers press conference
+      - Green Bay Packers media availability
+      - Green Bay Packers locker room interview
+
+  texans:
+    name: Houston Texans
+    search_queries:
+      - Houston Texans press conference
+      - Houston Texans media availability
+      - Houston Texans locker room interview
+
+  colts:
+    name: Indianapolis Colts
+    search_queries:
+      - Indianapolis Colts press conference
+      - Indianapolis Colts media availability
+      - Indianapolis Colts locker room interview
+
+  jaguars:
+    name: Jacksonville Jaguars
+    search_queries:
+      - Jacksonville Jaguars press conference
+      - Jacksonville Jaguars media availability
+      - Jacksonville Jaguars locker room interview
+
+  chiefs:
+    name: Kansas City Chiefs
+    search_queries:
+      - Kansas City Chiefs press conference
+      - Kansas City Chiefs media availability
+      - Kansas City Chiefs locker room interview
+
+  raiders:
+    name: Las Vegas Raiders
+    search_queries:
+      - Las Vegas Raiders press conference
+      - Las Vegas Raiders media availability
+      - Las Vegas Raiders locker room interview
+
+  chargers:
+    name: Los Angeles Chargers
+    search_queries:
+      - Los Angeles Chargers press conference
+      - Los Angeles Chargers media availability
+      - Los Angeles Chargers locker room interview
+
+  rams:
+    name: Los Angeles Rams
+    search_queries:
+      - Los Angeles Rams press conference
+      - Los Angeles Rams media availability
+      - Los Angeles Rams locker room interview
+
+  dolphins:
+    name: Miami Dolphins
+    search_queries:
+      - Miami Dolphins press conference
+      - Miami Dolphins media availability
+      - Miami Dolphins locker room interview
+
+  vikings:
+    name: Minnesota Vikings
+    search_queries:
+      - Minnesota Vikings press conference
+      - Minnesota Vikings media availability
+      - Minnesota Vikings locker room interview
+
+  patriots:
+    name: New England Patriots
+    search_queries:
+      - New England Patriots press conference
+      - New England Patriots media availability
+      - New England Patriots locker room interview
+
+  saints:
+    name: New Orleans Saints
+    search_queries:
+      - New Orleans Saints press conference
+      - New Orleans Saints media availability
+      - New Orleans Saints locker room interview
+
+  giants:
+    name: New York Giants
+    search_queries:
+      - New York Giants press conference
+      - New York Giants media availability
+      - New York Giants locker room interview
+
+  jets:
+    name: New York Jets
+    search_queries:
+      - New York Jets press conference
+      - New York Jets media availability
+      - New York Jets locker room interview
+
+  eagles:
+    name: Philadelphia Eagles
+    search_queries:
+      - Philadelphia Eagles press conference
+      - Philadelphia Eagles media availability
+      - Philadelphia Eagles locker room interview
+
+  steelers:
+    name: Pittsburgh Steelers
+    search_queries:
+      - Pittsburgh Steelers press conference
+      - Pittsburgh Steelers media availability
+      - Pittsburgh Steelers locker room interview
+
+  forty_niners:
+    name: San Francisco 49ers
+    search_queries:
+      - San Francisco 49ers press conference
+      - San Francisco 49ers media availability
+      - San Francisco 49ers locker room interview
+
+  seahawks:
+    name: Seattle Seahawks
+    search_queries:
+      - Seattle Seahawks press conference
+      - Seattle Seahawks media availability
+      - Seattle Seahawks locker room interview
+
+  buccaneers:
+    name: Tampa Bay Buccaneers
+    search_queries:
+      - Tampa Bay Buccaneers press conference
+      - Tampa Bay Buccaneers media availability
+      - Tampa Bay Buccaneers locker room interview
+
+  titans:
+    name: Tennessee Titans
+    search_queries:
+      - Tennessee Titans press conference
+      - Tennessee Titans media availability
+      - Tennessee Titans locker room interview
+
+  commanders:
+    name: Washington Commanders
+    search_queries:
+      - Washington Commanders press conference
+      - Washington Commanders media availability
+      - Washington Commanders locker room interview
