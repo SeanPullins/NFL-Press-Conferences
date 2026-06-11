@@ -1,0 +1,71 @@
+teams:
+  browns:
+    name: Cleveland Browns
+    youtube_channel_id: UC46LjrNgBfBz0HdW7vS4ggQ
+    keywords:
+      - press conference
+      - media availability
+      - interview
+      - locker room
+      - podium
+      - coach
+      - coordinator
+      - quarterback
+      - ota
+      - minicamp
+      - training camp
+
+  titans:
+    name: Tennessee Titans
+    youtube_channel_id: UCE7b9gnNh9XoF5X8XW-m9Gg
+    keywords:
+      - press conference
+      - media availability
+      - interview
+      - locker room
+      - podium
+      - coach
+      - coordinator
+      - quarterback
+      - ota
+      - minicamp
+      - training camp
+
+  steelers:
+    name: Pittsburgh Steelers
+    youtube_channel_id: UC7JorgD8nGLtvvMy1ogFetg
+    keywords:
+      - press conference
+      - media availability
+      - interview
+      - locker room
+      - podium
+      - coach
+      - coordinator
+      - quarterback
+
+  ravens:
+    name: Baltimore Ravens
+    youtube_channel_id: UC2sYgV-NV6S5_-pqLGChoNQ
+    keywords:
+      - press conference
+      - media availability
+      - interview
+      - locker room
+      - podium
+      - coach
+      - coordinator
+      - quarterback
+
+  bengals:
+    name: Cincinnati Bengals
+    youtube_channel_id: UClv6v_oI1OLQalwthQxD-Wg
+    keywords:
+      - press conference
+      - media availability
+      - interview
+      - locker room
+      - podium
+      - coach
+      - coordinator
+      - quarterback
