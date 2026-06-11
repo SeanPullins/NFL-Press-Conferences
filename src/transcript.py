@@ -1,4 +1,6 @@
+import base64
 import glob
+import gzip
 import os
 import re
 import subprocess
@@ -60,15 +62,34 @@ def get_transcript_from_api(video_id: str) -> str:
         return ""
 
 
+def get_cookie_text() -> str:
+    raw = os.getenv("YOUTUBE_COOKIES")
+    if raw and raw.strip():
+        transcript_debug("YOUTUBE_COOKIES secret found; using raw cookies text.")
+        return raw
+
+    compressed = os.getenv("YOUTUBE_COOKIES_B64_GZ")
+    if compressed and compressed.strip():
+        try:
+            decoded = base64.b64decode(compressed)
+            text = gzip.decompress(decoded).decode("utf-8")
+            transcript_debug("YOUTUBE_COOKIES_B64_GZ secret found; decoded compressed cookies.")
+            return text
+        except Exception as exc:
+            transcript_debug(f"Failed to decode YOUTUBE_COOKIES_B64_GZ: {type(exc).__name__}: {exc}")
+            return ""
+
+    transcript_debug("No YouTube cookies secret found; yt-dlp will run without cookies.")
+    return ""
+
+
 def write_cookie_file(tmp: str) -> str | None:
-    cookies = os.getenv("YOUTUBE_COOKIES")
+    cookies = get_cookie_text()
     if not cookies or not cookies.strip():
-        transcript_debug("No YOUTUBE_COOKIES secret found; yt-dlp will run without cookies.")
         return None
 
     cookie_path = Path(tmp) / "youtube_cookies.txt"
     cookie_path.write_text(cookies, encoding="utf-8")
-    transcript_debug("YOUTUBE_COOKIES secret found; using cookies file for yt-dlp.")
     return str(cookie_path)
 
 
