@@ -1,6 +1,6 @@
 # NFL Press Conference Quote Miner
 
-Updated: 2026-06-11 19:54 UTC
+Updated: 2026-06-11 20:06 UTC
 
 No new press conference analysis was generated in this run.
 
@@ -77,21 +77,21 @@ No new press conference analysis was generated in this run.
 
   - Shedeur Sanders Press Conference | June 10th, 2026 — https://www.youtube.com/watch?v=fGJYo_Y2cts
 
-  - Jacques Cesaire Press Conference | June 11th, 2026 — https://www.youtube.com/watch?v=pHwqJUSMzq8
-
-  - Christian Jones Press Conference | June 11th, 2026 — https://www.youtube.com/watch?v=axlc55LyEgY
+  - Todd Monken Press Conference | June 11th, 2026 — https://www.youtube.com/watch?v=ho6i-mwwzuk
 
   - Deshaun Watson Press Conference | June 10th, 2026 — https://www.youtube.com/watch?v=yu7nJYusstw
+
+  - Christian Jones Press Conference | June 11th, 2026 — https://www.youtube.com/watch?v=axlc55LyEgY
 
 - Cleveland Browns: skipped Christian Jones and Ephraim Banda Press Conference | June 11th, 2026 — No usable transcript found or transcript too short. Length=0
 
 - Cleveland Browns: skipped Shedeur Sanders Press Conference | June 10th, 2026 — No usable transcript found or transcript too short. Length=0
 
-- Cleveland Browns: skipped Jacques Cesaire Press Conference | June 11th, 2026 — No usable transcript found or transcript too short. Length=0
-
-- Cleveland Browns: skipped Christian Jones Press Conference | June 11th, 2026 — No usable transcript found or transcript too short. Length=0
+- Cleveland Browns: skipped Todd Monken Press Conference | June 11th, 2026 — No usable transcript found or transcript too short. Length=0
 
 - Cleveland Browns: skipped Deshaun Watson Press Conference | June 10th, 2026 — No usable transcript found or transcript too short. Length=0
+
+- Cleveland Browns: skipped Christian Jones Press Conference | June 11th, 2026 — No usable transcript found or transcript too short. Length=0
 
 - Tennessee Titans: 5 candidates found.
 
@@ -99,9 +99,9 @@ No new press conference analysis was generated in this run.
 
   - Position Coaches Press Conference | Tennessee Titans — https://www.youtube.com/watch?v=OqJWy7kscg4
 
-  - Robert Saleh Makes BOLD CLAIM About Titans QB Cam Ward | MCA Titans Podcast — https://www.youtube.com/watch?v=-Gj0jBpwzng
+  - Dike, Helm, Harris, Spears & Trubisky Meet with Media | Titans Press Conference — https://www.youtube.com/watch?v=WEvOoozp-M4
 
-  - Andy Reid ANNOUNCES RETIREMENT after BLOWOUT loss - Post Game Press Conference - Chiefs vs Titans — https://www.youtube.com/watch?v=yTWsaSTarJw
+  - Robert Saleh Makes BOLD CLAIM About Titans QB Cam Ward | MCA Titans Podcast — https://www.youtube.com/watch?v=-Gj0jBpwzng
 
   - Robert Saleh Press Conference | Tennessee Titans — https://www.youtube.com/watch?v=Fj-_yylq9k8
 
@@ -109,9 +109,9 @@ No new press conference analysis was generated in this run.
 
 - Tennessee Titans: skipped Position Coaches Press Conference | Tennessee Titans — No usable transcript found or transcript too short. Length=0
 
-- Tennessee Titans: skipped Robert Saleh Makes BOLD CLAIM About Titans QB Cam Ward | MCA Titans Podcast — No usable transcript found or transcript too short. Length=0
+- Tennessee Titans: skipped Dike, Helm, Harris, Spears & Trubisky Meet with Media | Titans Press Conference — No usable transcript found or transcript too short. Length=0
 
-- Tennessee Titans: skipped Andy Reid ANNOUNCES RETIREMENT after BLOWOUT loss - Post Game Press Conference - Chiefs vs Titans — No usable transcript found or transcript too short. Length=0
+- Tennessee Titans: skipped Robert Saleh Makes BOLD CLAIM About Titans QB Cam Ward | MCA Titans Podcast — No usable transcript found or transcript too short. Length=0
 
 - Tennessee Titans: skipped Robert Saleh Press Conference | Tennessee Titans — No usable transcript found or transcript too short. Length=0
 
@@ -123,9 +123,9 @@ No new press conference analysis was generated in this run.
 
   - Coach Tomlin Press Conference (Week 17 at Cleveland Browns) | Pittsburgh Steelers — https://www.youtube.com/watch?v=UUEde6TnWok
 
-  - Rodgers, Watt & Heyward Postgame Press Conference (Week 18 vs Baltimore Ravens) — https://www.youtube.com/watch?v=rRtm0rkUuLM
+  - Michael Pittman Jr. Introductory Press Conference  | Pittsburgh Steelers — https://www.youtube.com/watch?v=iCVLUyS59Lo
 
-  - Mike McCarthy Introductory Press Conference (Jan. 27) | Pittsburgh Steelers — https://www.youtube.com/watch?v=D7HJQyJ4hS0
+  - Mike McCarthy Press Conference (Apr. 21) | Pittsburgh Steelers — https://www.youtube.com/watch?v=1HQvWlVCrJ8
 
 - Pittsburgh Steelers: skipped Coach Mike McCarthy Media Availability (June 9) | Pittsburgh Steelers — No usable transcript found or transcript too short. Length=0
 
@@ -133,9 +133,9 @@ No new press conference analysis was generated in this run.
 
 - Pittsburgh Steelers: skipped Coach Tomlin Press Conference (Week 17 at Cleveland Browns) | Pittsburgh Steelers — No usable transcript found or transcript too short. Length=0
 
-- Pittsburgh Steelers: skipped Rodgers, Watt & Heyward Postgame Press Conference (Week 18 vs Baltimore Ravens) — No usable transcript found or transcript too short. Length=0
+- Pittsburgh Steelers: skipped Michael Pittman Jr. Introductory Press Conference  | Pittsburgh Steelers — No usable transcript found or transcript too short. Length=0
 
-- Pittsburgh Steelers: skipped Mike McCarthy Introductory Press Conference (Jan. 27) | Pittsburgh Steelers — No usable transcript found or transcript too short. Length=0
+- Pittsburgh Steelers: skipped Mike McCarthy Press Conference (Apr. 21) | Pittsburgh Steelers — No usable transcript found or transcript too short. Length=0
 
 - Baltimore Ravens: 5 candidates found.
 
@@ -145,9 +145,9 @@ No new press conference analysis was generated in this run.
 
   - John Harbaugh Provides an Update on Lamar Jackson | Baltimore Ravens — https://www.youtube.com/watch?v=JgzljYDcagk
 
-  - John Harbaugh on Lamar Jackson's Return to Practice | Baltimore Ravens — https://www.youtube.com/watch?v=aR212tsvvBg
-
   - John Harbaugh on Winner-Take-All Game vs. Steelers | Baltimore Ravens — https://www.youtube.com/watch?v=buvUJrycICw
+
+  - John Harbaugh on Lamar Jackson's Return to Practice | Baltimore Ravens — https://www.youtube.com/watch?v=aR212tsvvBg
 
 - Baltimore Ravens: skipped John Harbaugh on Lamar Jackson's Injury | Baltimore Ravens — No usable transcript found or transcript too short. Length=0
 
@@ -155,9 +155,9 @@ No new press conference analysis was generated in this run.
 
 - Baltimore Ravens: skipped John Harbaugh Provides an Update on Lamar Jackson | Baltimore Ravens — No usable transcript found or transcript too short. Length=0
 
-- Baltimore Ravens: skipped John Harbaugh on Lamar Jackson's Return to Practice | Baltimore Ravens — No usable transcript found or transcript too short. Length=0
-
 - Baltimore Ravens: skipped John Harbaugh on Winner-Take-All Game vs. Steelers | Baltimore Ravens — No usable transcript found or transcript too short. Length=0
+
+- Baltimore Ravens: skipped John Harbaugh on Lamar Jackson's Return to Practice | Baltimore Ravens — No usable transcript found or transcript too short. Length=0
 
 - Cincinnati Bengals: 5 candidates found.
 
@@ -165,18 +165,18 @@ No new press conference analysis was generated in this run.
 
   - Joe Burrow Press Conference - December 28 — https://www.youtube.com/watch?v=R4_1LMR_sv4
 
-  - Zac Taylor and Al Golden Press Conference - April 20 — https://www.youtube.com/watch?v=XwD8Mp65fFo
-
   - Duke Tobin Press Conference - January 9 — https://www.youtube.com/watch?v=3LjH1lgb0Fo
 
   - Joe Burrow Press Conference - December 24 — https://www.youtube.com/watch?v=Zi6st3NhFGg
+
+  - Joe Burrow Press Conference - January 4 — https://www.youtube.com/watch?v=jE4T1sFFQIo
 
 - Cincinnati Bengals: skipped Joe Burrow Press Conference - May 20 — No usable transcript found or transcript too short. Length=0
 
 - Cincinnati Bengals: skipped Joe Burrow Press Conference - December 28 — No usable transcript found or transcript too short. Length=0
 
-- Cincinnati Bengals: skipped Zac Taylor and Al Golden Press Conference - April 20 — No usable transcript found or transcript too short. Length=0
-
 - Cincinnati Bengals: skipped Duke Tobin Press Conference - January 9 — No usable transcript found or transcript too short. Length=0
 
 - Cincinnati Bengals: skipped Joe Burrow Press Conference - December 24 — No usable transcript found or transcript too short. Length=0
+
+- Cincinnati Bengals: skipped Joe Burrow Press Conference - January 4 — No usable transcript found or transcript too short. Length=0
