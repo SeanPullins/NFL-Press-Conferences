@@ -36,6 +36,13 @@ jobs:
         run: |
           python src/main.py
 
+      - name: Publish NotebookLM digest to Google Doc
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_DOC_ID: ${{ secrets.GOOGLE_DOC_ID }}
+        run: |
+          python src/publish_to_google_doc.py
+
       - name: Commit updates
         run: |
           git config user.name "nfl-quote-miner-bot"
