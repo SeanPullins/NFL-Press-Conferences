@@ -8,12 +8,13 @@ from dotenv import load_dotenv
 from quote_miner import analyze_transcript
 from report import write_reports
 from transcript import get_transcript
-from youtube_feeds import find_candidate_videos
+from youtube_feeds import find_candidate_videos, get_debug_events
 
 
 DATA_DIR = Path("data")
 SEEN_FILE = DATA_DIR / "seen_videos.json"
 QUOTES_FILE = DATA_DIR / "quotes.json"
+DEBUG_FILE = DATA_DIR / "debug.json"
 
 
 def load_json(path: Path, default):
@@ -37,8 +38,8 @@ def main():
     if not os.getenv("OPENAI_API_KEY"):
         raise RuntimeError("OPENAI_API_KEY is required.")
 
-    max_videos_per_team = int(os.getenv("MAX_VIDEOS_PER_TEAM", "5"))
-    min_transcript_chars = int(os.getenv("MIN_TRANSCRIPT_CHARS", "500"))
+    max_videos_per_team = int(os.getenv("MAX_VIDEOS_PER_TEAM", "10"))
+    min_transcript_chars = int(os.getenv("MIN_TRANSCRIPT_CHARS", "300"))
 
     with open(DATA_DIR / "teams.yml", "r", encoding="utf-8") as f:
         config = yaml.safe_load(f)
@@ -46,17 +47,29 @@ def main():
     seen = set(load_json(SEEN_FILE, []))
     all_quotes = load_json(QUOTES_FILE, [])
     new_items = []
+    run_debug = []
 
     for team_key, team in config.get("teams", {}).items():
         try:
             videos = find_candidate_videos(team_key, team, limit=max_videos_per_team)
+            run_debug.append({
+                "team": team.get("name", team_key),
+                "candidate_count": len(videos),
+                "candidates": videos,
+            })
         except Exception as exc:
-            print(f"Feed error for {team.get('name', team_key)}: {exc}")
+            msg = f"Discovery error for {team.get('name', team_key)}: {exc}"
+            print(msg)
+            run_debug.append({"team": team.get("name", team_key), "error": msg})
             continue
 
         for video in videos:
             video_id = video.get("video_id")
-            if not video_id or video_id in seen:
+            if not video_id:
+                run_debug.append({"team": video.get("team_name"), "title": video.get("title"), "skipped": "missing video_id"})
+                continue
+            if video_id in seen:
+                run_debug.append({"team": video.get("team_name"), "title": video.get("title"), "skipped": "already seen"})
                 continue
 
             print(f"Processing: {video['team_name']} - {video['title']}")
@@ -64,13 +77,15 @@ def main():
             try:
                 transcript = get_transcript(video["url"])
             except Exception as exc:
-                print(f"Transcript error for {video.get('url')}: {exc}")
-                seen.add(video_id)
+                msg = f"Transcript error for {video.get('url')}: {exc}"
+                print(msg)
+                run_debug.append({"team": video.get("team_name"), "title": video.get("title"), "skipped": msg})
                 continue
 
             if not transcript or len(transcript) < min_transcript_chars:
-                print("No usable transcript found or transcript too short.")
-                seen.add(video_id)
+                msg = f"No usable transcript found or transcript too short. Length={len(transcript or '')}"
+                print(msg)
+                run_debug.append({"team": video.get("team_name"), "title": video.get("title"), "url": video.get("url"), "skipped": msg})
                 continue
 
             try:
@@ -81,8 +96,9 @@ def main():
                     transcript=transcript,
                 )
             except Exception as exc:
-                print(f"LLM analysis error: {exc}")
-                seen.add(video_id)
+                msg = f"LLM analysis error: {exc}"
+                print(msg)
+                run_debug.append({"team": video.get("team_name"), "title": video.get("title"), "skipped": msg})
                 continue
 
             item = {
@@ -94,9 +110,15 @@ def main():
             all_quotes.append(item)
             seen.add(video_id)
 
+    debug_payload = {
+        "discovery_events": get_debug_events(),
+        "run_debug": run_debug,
+    }
+
     save_json(QUOTES_FILE, all_quotes)
     save_json(SEEN_FILE, sorted(list(seen)))
-    write_reports(new_items, all_quotes)
+    save_json(DEBUG_FILE, debug_payload)
+    write_reports(new_items, all_quotes, debug_payload=debug_payload)
 
     print(f"Processed {len(new_items)} new videos.")
 
