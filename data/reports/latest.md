@@ -1,6 +1,6 @@
 # NFL Press Conference Quote Miner
 
-Updated: 2026-06-11 18:50 UTC
+Updated: 2026-06-11 19:36 UTC
 
 No new press conference analysis was generated in this run.
 
@@ -73,23 +73,23 @@ No new press conference analysis was generated in this run.
 
 - Cleveland Browns: 5 candidates found.
 
-  - 2026 Cleveland Browns Press Conference — https://www.youtube.com/watch?v=c7rqPlalkng
+  - Christian Jones and Ephraim Banda Press Conference | June 11th, 2026 — https://www.youtube.com/watch?v=eik56zRL3wM
 
   - Shedeur Sanders Press Conference | June 10th, 2026 — https://www.youtube.com/watch?v=fGJYo_Y2cts
 
-  - Christian Jones and Ephraim Banda Press Conference | June 11th, 2026 — https://www.youtube.com/watch?v=eik56zRL3wM
-
   - Christian Jones Press Conference | June 11th, 2026 — https://www.youtube.com/watch?v=axlc55LyEgY
+
+  - Brandon Lynch Press Conference | June 11th, 2026 — https://www.youtube.com/watch?v=4if5EG5RR7M
 
   - Deshaun Watson Press Conference | June 10th, 2026 — https://www.youtube.com/watch?v=yu7nJYusstw
 
-- Cleveland Browns: skipped 2026 Cleveland Browns Press Conference — No usable transcript found or transcript too short. Length=0
+- Cleveland Browns: skipped Christian Jones and Ephraim Banda Press Conference | June 11th, 2026 — No usable transcript found or transcript too short. Length=0
 
 - Cleveland Browns: skipped Shedeur Sanders Press Conference | June 10th, 2026 — No usable transcript found or transcript too short. Length=0
 
-- Cleveland Browns: skipped Christian Jones and Ephraim Banda Press Conference | June 11th, 2026 — No usable transcript found or transcript too short. Length=0
-
 - Cleveland Browns: skipped Christian Jones Press Conference | June 11th, 2026 — No usable transcript found or transcript too short. Length=0
+
+- Cleveland Browns: skipped Brandon Lynch Press Conference | June 11th, 2026 — No usable transcript found or transcript too short. Length=0
 
 - Cleveland Browns: skipped Deshaun Watson Press Conference | June 10th, 2026 — No usable transcript found or transcript too short. Length=0
 
@@ -99,21 +99,21 @@ No new press conference analysis was generated in this run.
 
   - Position Coaches Press Conference | Tennessee Titans — https://www.youtube.com/watch?v=OqJWy7kscg4
 
-  - Live Press Conference: 1:15 PM CT: Titans Select Players — https://www.youtube.com/watch?v=WMeLggtKyAY
+  - Robert Saleh Makes BOLD CLAIM About Titans QB Cam Ward | MCA Titans Podcast — https://www.youtube.com/watch?v=-Gj0jBpwzng
+
+  - Dike, Helm, Harris, Spears & Trubisky Meet with Media | Titans Press Conference — https://www.youtube.com/watch?v=WEvOoozp-M4
 
   - Robert Saleh Press Conference | Tennessee Titans — https://www.youtube.com/watch?v=Fj-_yylq9k8
-
-  - Robert Saleh Makes BOLD CLAIM About Titans QB Cam Ward | MCA Titans Podcast — https://www.youtube.com/watch?v=-Gj0jBpwzng
 
 - Tennessee Titans: skipped Robert Saleh on Cam Ward: “We’re in Really Good Hands” | Titans Press Conference — No usable transcript found or transcript too short. Length=0
 
 - Tennessee Titans: skipped Position Coaches Press Conference | Tennessee Titans — No usable transcript found or transcript too short. Length=0
 
-- Tennessee Titans: skipped Live Press Conference: 1:15 PM CT: Titans Select Players — No usable transcript found or transcript too short. Length=0
+- Tennessee Titans: skipped Robert Saleh Makes BOLD CLAIM About Titans QB Cam Ward | MCA Titans Podcast — No usable transcript found or transcript too short. Length=0
+
+- Tennessee Titans: skipped Dike, Helm, Harris, Spears & Trubisky Meet with Media | Titans Press Conference — No usable transcript found or transcript too short. Length=0
 
 - Tennessee Titans: skipped Robert Saleh Press Conference | Tennessee Titans — No usable transcript found or transcript too short. Length=0
-
-- Tennessee Titans: skipped Robert Saleh Makes BOLD CLAIM About Titans QB Cam Ward | MCA Titans Podcast — No usable transcript found or transcript too short. Length=0
 
 - Pittsburgh Steelers: 5 candidates found.
 
@@ -139,25 +139,25 @@ No new press conference analysis was generated in this run.
 
 - Baltimore Ravens: 5 candidates found.
 
-  - Steve Bisciotti and Eric DeCosta Full Press Conference Discussing Head Coach Search | Ravens — https://www.youtube.com/watch?v=6XI2IBOZzlk
+  - John Harbaugh on Lamar Jackson's Injury | Baltimore Ravens — https://www.youtube.com/watch?v=znSb1P1dCD4
 
-  - Declan Doyle, Anthony Weaver, Anthony Levine Sr. Coordinators Press Conference | Baltimore Ravens — https://www.youtube.com/watch?v=JnW1VCP5xgc
+  - John Harbaugh Provides an Update on Lamar Jackson | Baltimore Ravens — https://www.youtube.com/watch?v=JgzljYDcagk
 
-  - Declan Doyle: Lamar Jackson is the 'Twitchiest Athlete I've Ever Seen' | Baltimore Ravens — https://www.youtube.com/watch?v=Fgmr4kuh2Ms
+  - John Harbaugh on Winner-Take-All Game vs. Steelers | Baltimore Ravens — https://www.youtube.com/watch?v=buvUJrycICw
 
-  - Derrick Henry: 'Change Can Be Good' | Baltimore Ravens — https://www.youtube.com/watch?v=Di_3VwLD8Dk
+  - John Harbaugh: 'We Just Didn't Play Well Enough to Close It Out' | Baltimore Ravens — https://www.youtube.com/watch?v=EzKNeL5Vkpg
 
-  - Zay Flowers Discusses Declan Doyle's Offense | Baltimore Ravens — https://www.youtube.com/watch?v=jBYii-97WJ4
+  - John Harbaugh on Lamar Jackson's Return to Practice | Baltimore Ravens — https://www.youtube.com/watch?v=aR212tsvvBg
 
-- Baltimore Ravens: skipped Steve Bisciotti and Eric DeCosta Full Press Conference Discussing Head Coach Search | Ravens — No usable transcript found or transcript too short. Length=0
+- Baltimore Ravens: skipped John Harbaugh on Lamar Jackson's Injury | Baltimore Ravens — No usable transcript found or transcript too short. Length=0
 
-- Baltimore Ravens: skipped Declan Doyle, Anthony Weaver, Anthony Levine Sr. Coordinators Press Conference | Baltimore Ravens — No usable transcript found or transcript too short. Length=0
+- Baltimore Ravens: skipped John Harbaugh Provides an Update on Lamar Jackson | Baltimore Ravens — No usable transcript found or transcript too short. Length=0
 
-- Baltimore Ravens: skipped Declan Doyle: Lamar Jackson is the 'Twitchiest Athlete I've Ever Seen' | Baltimore Ravens — No usable transcript found or transcript too short. Length=0
+- Baltimore Ravens: skipped John Harbaugh on Winner-Take-All Game vs. Steelers | Baltimore Ravens — No usable transcript found or transcript too short. Length=0
 
-- Baltimore Ravens: skipped Derrick Henry: 'Change Can Be Good' | Baltimore Ravens — No usable transcript found or transcript too short. Length=0
+- Baltimore Ravens: skipped John Harbaugh: 'We Just Didn't Play Well Enough to Close It Out' | Baltimore Ravens — No usable transcript found or transcript too short. Length=0
 
-- Baltimore Ravens: skipped Zay Flowers Discusses Declan Doyle's Offense | Baltimore Ravens — No usable transcript found or transcript too short. Length=0
+- Baltimore Ravens: skipped John Harbaugh on Lamar Jackson's Return to Practice | Baltimore Ravens — No usable transcript found or transcript too short. Length=0
 
 - Cincinnati Bengals: 5 candidates found.
 
